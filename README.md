@@ -15,7 +15,7 @@ It features various products like shampoos, oils, and candles, with an emphasis 
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/) version 14 or higher)
+- [Node.js](https://nodejs.org/) (version 14 or higher)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 
 ## Installation
