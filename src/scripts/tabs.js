@@ -13,8 +13,8 @@ tabs.forEach((tab, index) => {
     line.style.width = e.target.offsetWidth + "px";
     line.style.left = e.target.offsetLeft + "px";
 
-    content.forEach((content) => {
-      content.classList.remove("content__active");
+    content.forEach((c) => {
+      c.classList.remove("content__active");
     });
 
     content[index].classList.add("content__active");
