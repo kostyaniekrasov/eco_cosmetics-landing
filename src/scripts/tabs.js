@@ -17,6 +17,6 @@ tabs.forEach((tab, index) => {
       content.classList.remove("content__active");
     });
 
-    content[index].classList.add("content__active");
+    allContent[index].classList.add("content__active");
   });
 });
