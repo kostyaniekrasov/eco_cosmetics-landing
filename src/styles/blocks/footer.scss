@@ -39,7 +39,6 @@
 
     @include onDesktop {
       grid-column: 1 / 4;
-      // flex-direction: row;
     }
 
     &--links {
@@ -170,8 +169,6 @@
     justify-content: center;
 
     @include onTablet {
-      // align-self: self-start;
-      // text-align: left;
       justify-content: start;
       grid-column: 1 / 4;
     }

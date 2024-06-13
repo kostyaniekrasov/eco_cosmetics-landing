@@ -15,7 +15,6 @@
   cursor: pointer;
 
   @include hover(color, $c-black);
-  // @include hover(border, 1px);
   @include hover(background-color, $c-warm-gray);
 
   @include onDesktop {
@@ -24,12 +23,12 @@
 
   &--learn-more {
     @extend %decorative-text;
-    
+
     background-color: transparent;
     color: $c-green;
     height: 29px;
     width: max-content;
-    
+
     cursor: pointer;
 
     &::after {
@@ -37,9 +36,7 @@
       display: block;
       height: 1px;
       width: 100%;
-      // bottom: -10px;
       margin-top: 10px;
-      // margin-bottom: 10px;
 
       background-color: $c-green;
       transition: transform 0.3s;

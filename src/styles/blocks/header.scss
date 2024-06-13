@@ -11,7 +11,7 @@
 
     @include onDesktop {
       padding-top: 81px;
-      
+
       @include pageGrid;
     }
 
@@ -21,7 +21,6 @@
   }
 
   &__img {
-    // overflow: hidden;
     @include hover(transform, scale(1.2));
     width: 100%;
     &--wrapper {
@@ -33,20 +32,16 @@
       @include onTablet {
         margin: 0 0 50px;
       }
-  
+
       @include onDesktop {
         grid-column: 7 / 13;
         grid-row: 1 / 4;
         margin: 0;
-        // height: 451px;
         align-self: self-start;
       }
 
       overflow: hidden;
-
-      // @include hover(transform, scale(1.5));
     }
-
   }
 
   &__title {
@@ -98,7 +93,6 @@
       grid-column: 2 / 6;
       text-align: left;
       align-self: self-start;
-      // margin-bottom: 100px;
     }
   }
 

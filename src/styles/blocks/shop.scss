@@ -1,7 +1,5 @@
 .shop {
   &__wrapper {
-    // display: flex;
-    // flex-direction: column;
     text-align: center;
 
     @include onTablet {
@@ -64,7 +62,6 @@
       position: absolute;
       height: 2px;
       width: 49px;
-      // width: 100%;
       left: 0;
       bottom: -10px;
 
@@ -90,7 +87,6 @@
       align-self: center;
       width: 280px;
     }
-    // animation: moving .5s ease;
   }
 
   @keyframes moving {
@@ -130,10 +126,7 @@
     }
 
     &--1 {
-      // width: 342px;
       width: 100%;
-      // margin-left: -20px;
-      // margin-right: -20px;
 
       @include onDesktop {
         margin: 0;
@@ -141,10 +134,7 @@
     }
 
     &--2 {
-      // width: 342px;
       width: 100%;
-      // margin-left: -20px;
-      // margin-right: -20px;
 
       @include onTablet {
         margin: 0;

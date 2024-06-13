@@ -7,8 +7,6 @@
   background-position: center;
 
   &--close {
-    // width: 14px;
-    // height: 14px;
     background-image: url(/src/images/icons/close.svg);
     @include hover(transform, scale(1.2));
   }
@@ -25,8 +23,6 @@
 
   &--logo {
     background-image: url(/src/images/icons/logo.svg);
-    // background-size: auto auto;
-    // background-size: 50px;
 
     @include onDesktop {
       width: 50px;

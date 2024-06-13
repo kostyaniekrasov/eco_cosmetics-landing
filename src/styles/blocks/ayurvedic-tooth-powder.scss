@@ -1,15 +1,11 @@
 .ayurvedic-tooth-powder {
   &__wrapper {
-    // display: flex;
-    // flex-direction: column;
     margin-bottom: 111px;
 
     @include onTablet {
       @include pageGrid;
 
       margin-bottom: 121px;
-      // flex-direction: row;
-      // flex-wrap: nowrap;
     }
 
     @include onDesktop {
@@ -85,7 +81,6 @@
 
     @include onDesktop {
       grid-column: 2 / 4;
-      // margin-bottom: 287px;
     }
   }
 
@@ -103,10 +98,6 @@
         align-items: baseline;
         justify-content: space-between;
         gap: 0;
-      }
-
-      @include onDesktop {
-        // gap: 20px;
       }
     }
 
