@@ -1,7 +1,7 @@
 "use strict";
 
 const tabs = document.querySelectorAll(".shop__tab-box--button");
-const allСontent = document.querySelectorAll(".content");
+const content = document.querySelectorAll(".content");
 
 tabs.forEach((tab, index) => {
   tab.addEventListener("click", (e) => {
@@ -13,10 +13,10 @@ tabs.forEach((tab, index) => {
     line.style.width = e.target.offsetWidth + "px";
     line.style.left = e.target.offsetLeft + "px";
 
-    allСontent.forEach((content) => {
+    content.forEach((content) => {
       content.classList.remove("content__active");
     });
 
-    allСontent[index].classList.add("content__active");
+    content[index].classList.add("content__active");
   });
 });
