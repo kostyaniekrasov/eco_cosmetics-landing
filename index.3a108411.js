@@ -1,0 +1,2 @@
+var e=document.getElementById("product-btn"),t=document.querySelector(".icon--shop__var"),n=document.querySelector(".product__card--delete-btn"),d=0,r=0,o=window.sessionStorage;e&&e.addEventListener("click",function(){r=++d,o.setItem("res",r),t.innerHTML=o.getItem("res"),t.style.display="flex"}),n&&n.addEventListener("click",function(){t.innerHTML=0,d=0,r=0,o.setItem("res",r),t.style.display="none"}),"undefined"!=typeof window&&(d=o.getItem("res"),t.innerHTML=d),d<=0&&(t.style.display="none");
+//# sourceMappingURL=index.3a108411.js.map
