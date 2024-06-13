@@ -22,12 +22,12 @@ It features various products like shampoos, oils, and candles, with an emphasis 
 
 **1. Clone the repository:**
 ```
-git clone https://github.com/kostyaniekrasov/museum_v2-landing.git
+git clone https://github.com/kostyaniekrasov/eco_cosmetics-landing.git
 ```
 
 **2. Navigate to the project directory:**
 ```
-cd museum_v2-landing
+cd eco_cosmetics-landing
 ```
 **3. Install the dependencies:**
 ```
